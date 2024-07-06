@@ -4,7 +4,7 @@ import Item from '../Item/Item'
 
 const NewCollections = () => {
   const [new_collection,setNew_collection] = useState([])
-  const url = 'http://localhost:4000'
+  const url = 'https://ecommerce-backend-zsxd.onrender.com'
   useEffect(()=>{
     fetch(`${url}/newcollection`).then((response)=>response.json()).then((data)=>setNew_collection(data))
   },[])
