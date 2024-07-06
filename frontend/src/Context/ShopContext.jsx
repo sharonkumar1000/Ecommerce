@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export const ShopContext = createContext(null)
 
-const url = 'http://localhost:4000'
+const url = 'https://ecommerce-backend-zsxd.onrender.com'
 
 const getDefault = ()=>{
     let cart = {};
