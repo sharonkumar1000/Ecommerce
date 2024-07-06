@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './CSS/LoginSignup.css'
 
-const url = 'http://localhost:4000'
+const url = 'https://ecommerce-backend-zsxd.onrender.com'
 const Login = () => {
   const [state,setState] = useState("Login");
   const [formData,setFormData] = useState({
