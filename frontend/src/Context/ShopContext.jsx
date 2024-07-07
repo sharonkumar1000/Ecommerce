@@ -50,6 +50,7 @@ const ShopContextProvider = (props)=>{
             .then((text) => {
                 try {
                     const data = JSON.parse(text);
+                    console.log(data)
                 } catch (err) {
                     
                 }
