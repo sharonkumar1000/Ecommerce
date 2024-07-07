@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Popular.css'
 import Item from '../Item/Item.jsx'
 const Popular = () => {
+  
   const url = 'https://ecommerce-backend-zsxd.onrender.com'
   const [popularProducts,setPopularProducts] = useState([]);
   useEffect(()=>{
