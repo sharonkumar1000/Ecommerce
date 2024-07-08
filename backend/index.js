@@ -11,7 +11,7 @@ require('dotenv').config();
 app.use(express.json());
 app.use(cors());
 
-const url = 'http://localhost:4000'
+const url = 'https://ecommerce-backend-zsxd.onrender.com'
 
 // Database Connection with mongodb
 // mongoose.connect("mongodb+srv://sharonkumar1000:sh@ronkum@r100@cluster0.0ipheiu.mongodb.net/e-commerce?retryWrites=true&w=majority")
