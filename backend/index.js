@@ -13,11 +13,9 @@ app.use(cors());
 
 const url = 'https://ecommerce-backend-zsxd.onrender.com'
 
-// Database Connection with mongodb
-// mongoose.connect("mongodb+srv://sharonkumar1000:sh@ronkum@r100@cluster0.0ipheiu.mongodb.net/e-commerce?retryWrites=true&w=majority")
+
 mongoose.connect(process.env.REACT_MONGO)
-//?retryWrites=true&w=majority&appName=Cluster0
-//API Creation
+
 app.get("/",(request,res)=>{
     res.send("Express app is running")
 })
